@@ -360,13 +360,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cluster-computing" title="Cluster Computing" class="md-nav__link">
-    Cluster Computing
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#code-analysis" title="Code Analysis" class="md-nav__link">
     Code Analysis
   </a>
@@ -474,6 +467,13 @@
         <li class="md-nav__item">
   <a href="#devops-tools" title="DevOps Tools" class="md-nav__link">
     DevOps Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distributed-computing" title="Distributed Computing" class="md-nav__link">
+    Distributed Computing
   </a>
   
 </li>
@@ -986,13 +986,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cluster-computing" title="Cluster Computing" class="md-nav__link">
-    Cluster Computing
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#code-analysis" title="Code Analysis" class="md-nav__link">
     Code Analysis
   </a>
@@ -1100,6 +1093,13 @@
         <li class="md-nav__item">
   <a href="#devops-tools" title="DevOps Tools" class="md-nav__link">
     DevOps Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distributed-computing" title="Distributed Computing" class="md-nav__link">
+    Distributed Computing
   </a>
   
 </li>
@@ -1549,7 +1549,6 @@
 <li><a href="#built-in-classes-enhancement">Built-in Classes Enhancement</a></li>
 <li><a href="#caching">Caching</a></li>
 <li><a href="#chatops-tools">ChatOps Tools</a></li>
-<li><a href="#cluster-computing">Cluster Computing</a></li>
 <li><a href="#cms">CMS</a></li>
 <li><a href="#code-analysis">Code Analysis</a></li>
 <li><a href="#command-line-tools">Command-line Tools</a></li>
@@ -1567,6 +1566,7 @@
 <li><a href="#debugging-tools">Debugging Tools</a></li>
 <li><a href="#deep-learning">Deep Learning</a></li>
 <li><a href="#devops-tools">DevOps Tools</a></li>
+<li><a href="#distributed-computing">Distributed Computing</a></li>
 <li><a href="#distribution">Distribution</a></li>
 <li><a href="#documentation">Documentation</a></li>
 <li><a href="#downloader">Downloader</a></li>
@@ -1745,33 +1745,28 @@
 <ul>
 <li><a href="https://github.com/errbotio/errbot/">Errbot</a> - The easiest and most popular chatbot to implement ChatOps.</li>
 </ul>
-<h2 id="cluster-computing">Cluster Computing</h2>
-<p><em>Frameworks and libraries for Cluster Computing.</em></p>
-<ul>
-<li><a href="https://pypi.python.org/pypi/pyspark/">PySpark</a> - <a href="https://spark.apache.org/">Apache Spark</a> Python API.</li>
-<li><a href="https://dask.pydata.org/en/latest/">dask</a> - A flexible parallel computing library for analytic computing.</li>
-<li><a href="https://github.com/robinhood/faust">faust</a> - A stream processing library, porting the ideas from <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a> to Python.</li>
-<li><a href="https://github.com/spotify/luigi">luigi</a> - A module that helps you build complex pipelines of batch jobs.</li>
-<li><a href="https://github.com/Yelp/mrjob">mrjob</a> - Run MapReduce jobs on Hadoop or Amazon Web Services.</li>
-<li><a href="https://github.com/ray-project/ray/">Ray</a> - A system for parallel and distributed Python that unifies the machine learning ecosystem.</li>
-<li><a href="https://github.com/Parsely/streamparse">streamparse</a> - Run Python code against real-time streams of data via <a href="http://storm.apache.org/">Apache Storm</a>.</li>
-</ul>
 <h2 id="code-analysis">Code Analysis</h2>
 <p><em>Tools of static analysis, linters and code quality checkers. See: <a href="https://github.com/mre/awesome-static-analysis">awesome-static-analysis</a>.</em></p>
 <ul>
 <li>Code Analysis<ul>
-<li><a href="https://pypi.python.org/pypi/flake8">flake8</a> - A wrapper around pycodestyle, pyflakes and McCabe.</li>
-<li><a href="http://coala.io/">coala</a> - Language independent and easily extendable code analysis application.</li>
+<li><a href="https://github.com/coala/coala/">coala</a> - Language independent and easily extendable code analysis application.</li>
 <li><a href="https://github.com/scottrogowski/code2flow">code2flow</a> - Turn your Python and JavaScript code into DOT flowcharts.</li>
-<li><a href="https://github.com/landscapeio/prospector">prospector</a> - A tool to analyse Python code.</li>
+<li><a href="https://github.com/PyCQA/prospector">prospector</a> - A tool to analyse Python code.</li>
 <li><a href="https://github.com/gak/pycallgraph">pycallgraph</a> - A library that visualises the flow (call graph) of your Python application.</li>
-<li><a href="https://github.com/klen/pylama">pylama</a> - A code audit tool for Python and JavaScript.</li>
+</ul>
+</li>
+<li>Code Linters<ul>
+<li><a href="https://pypi.python.org/pypi/flake8">flake8</a> - A wrapper around <code>pycodestyle</code>, <code>pyflakes</code> and McCabe.</li>
 <li><a href="https://www.pylint.org/">pylint</a> - A fully customizable source code analyzer.</li>
+<li><a href="https://github.com/klen/pylama">pylama</a> - A code audit tool for Python and JavaScript.
+Code Formatters</li>
+<li><a href="https://github.com/ambv/black">black</a> - The uncompromising Python code formatter.</li>
+<li><a href="https://github.com/google/yapf">yapf</a> - Yet another Python code formatter from Google.</li>
 </ul>
 </li>
 <li>Static Type Checkers<ul>
 <li><a href="http://mypy-lang.org/">mypy</a> - Check variable types during compile time.</li>
-<li><a href="https://github.com/facebook/pyre-check">Pyre</a> - Performant type checking.</li>
+<li><a href="https://github.com/facebook/pyre-check">pyre-check</a> - Performant type checking.</li>
 </ul>
 </li>
 <li>Static Type Annotations Generators<ul>
@@ -2014,6 +2009,23 @@
 <li><a href="https://github.com/giampaolo/psutil">psutil</a> - A cross-platform process and system utilities module.</li>
 <li><a href="https://github.com/saltstack/salt">SaltStack</a> - Infrastructure automation and management system.</li>
 <li><a href="https://github.com/Supervisor/supervisor">supervisor</a> - Supervisor process control system for UNIX.</li>
+</ul>
+<h2 id="distributed-computing">Distributed Computing</h2>
+<p><em>Frameworks and libraries for Distributed Computing.</em></p>
+<ul>
+<li>Batch Processing<ul>
+<li><a href="https://pypi.python.org/pypi/pyspark/">PySpark</a> - <a href="https://spark.apache.org/">Apache Spark</a> Python API.</li>
+<li><a href="https://github.com/dask/dask">dask</a> - A flexible parallel computing library for analytic computing.</li>
+<li><a href="https://github.com/spotify/luigi">luigi</a> - A module that helps you build complex pipelines of batch jobs.</li>
+<li><a href="https://github.com/Yelp/mrjob">mrjob</a> - Run MapReduce jobs on Hadoop or Amazon Web Services.</li>
+<li><a href="https://github.com/ray-project/ray/">Ray</a> - A system for parallel and distributed Python that unifies the machine learning ecosystem.</li>
+</ul>
+</li>
+<li>Stream Processing<ul>
+<li><a href="https://github.com/robinhood/faust">faust</a> - A stream processing library, porting the ideas from <a href="https://kafka.apache.org/documentation/streams/">Kafka Streams</a> to Python.</li>
+<li><a href="https://github.com/Parsely/streamparse">streamparse</a> - Run Python code against real-time streams of data via <a href="http://storm.apache.org/">Apache Storm</a>.</li>
+</ul>
+</li>
 </ul>
 <h2 id="distribution">Distribution</h2>
 <p><em>Libraries to create packaged executables for release distribution.</em></p>
@@ -2530,9 +2542,8 @@
 <p><em>Libraries and software for indexing and performing search queries on data.</em></p>
 <ul>
 <li><a href="https://github.com/django-haystack/django-haystack">django-haystack</a> - Modular search for Django.</li>
-<li><a href="https://github.com/elastic/elasticsearch-dsl-py">elasticsearch-dsl-py</a> - The official high-level Python client for Elasticsearch.</li>
 <li><a href="https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html">elasticsearch-py</a> - The official low-level Python client for <a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a>.</li>
-<li><a href="https://github.com/seek-ai/esengine">esengine</a> - ElasticSearch ODM (Object Document Mapper) for Python.</li>
+<li><a href="https://github.com/elastic/elasticsearch-dsl-py">elasticsearch-dsl-py</a> - The official high-level Python client for Elasticsearch.</li>
 <li><a href="https://github.com/django-haystack/pysolr">pysolr</a> - A lightweight Python wrapper for Apache Solr (incl. SolrCloud awareness).</li>
 <li><a href="https://github.com/edsu/solrpy">solrpy</a> - A Python client for <a href="http://lucene.apache.org/solr/">solr</a>.</li>
 <li><a href="http://whoosh.readthedocs.io/en/latest/">Whoosh</a> - A fast, pure Python search engine library.</li>
@@ -2547,7 +2558,6 @@
 <h2 id="serverless-frameworks">Serverless Frameworks</h2>
 <p><em>Frameworks for developing serverless Python code.</em></p>
 <ul>
-<li><a href="https://github.com/apex/apex">apex</a> - Build, deploy, and manage <a href="https://aws.amazon.com/lambda/">AWS Lambda</a> functions with ease.</li>
 <li><a href="https://github.com/nficano/python-lambda">python-lambda</a> - A toolkit for developing and deploying Python code in AWS Lambda.</li>
 <li><a href="https://github.com/Miserlou/Zappa">Zappa</a> - A tool for deploying WSGI applications on AWS Lambda and API Gateway.</li>
 </ul>
